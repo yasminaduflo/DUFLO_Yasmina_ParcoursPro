@@ -66,7 +66,7 @@ const missions = [
     description: "Flyer conçu à partir du brief des organisateurs, diffusé sur les réseaux sociaux de la mairie et sur les panneaux publicitaires de la commune.",
     outils: ["Photoshop"],
     competences: ["Comprendre", "Concevoir", "Exprimer"],
-    images: ["assets/images/capture.png"]
+    images: ["assets/images/Capture.png"]
   },
   {
     titre: "Affiche de la fête de fin d'année d'une école",

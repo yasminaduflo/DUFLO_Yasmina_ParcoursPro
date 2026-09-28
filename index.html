@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon parcours professionnel MMI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat:wght@600;700&family=Cormorant+Garamond:ital,wght@1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="index.html">Yasmina Duflo</a>
+    <nav id="menu" aria-label="Navigation principale">
+      <button type="button" class="btn-fermer-menu" id="btn-fermer-menu" aria-label="Fermer le menu">×</button>
+      <a href="#mon-stage">Mon stage</a>
+      <a href="#mes-missions">Missions</a>
+      <a href="#mes-competences">Compétences</a>
+      <a href="#mes-outils">Outils</a>
+      <a href="#mon-bilan">Bilan</a>
+    </nav>
+    <div class="header-actions">
+      <button type="button" id="btn-theme" aria-label="Passer en mode sombre">☾</button>
+      <button type="button" class="btn-burger" id="btn-burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">☰</button>
+    </div>
+  </header>
+  <div class="menu-overlay" id="menu-overlay"></div>
+
+  <main>
+    <div class="hero">
+      <p class="hero-eyebrow">Projet R3.12, BUT MMI 2<sup>e</sup> année</p>
+      <h1 class="hero-titre">Mon parcours <em>professionnel</em> MMI</h1>
+      <p class="hero-desc">Yasmina DUFLO.</p>
+    </div>
+
+    <section id="mon-stage">
+      <p class="section-label">Le point de départ</p>
+      <h2 class="section-title">Mon <em>stage</em> de BUT1</h2>
+      <dl class="fiche" id="infos-stage"></dl>
+    </section>
+
+    <section id="mes-missions">
+      <p class="section-label">Ce que j'ai fabriqué</p>
+      <h2 class="section-title">Mes <em>missions</em></h2>
+      <p id="resume-missions"></p>
+      <div id="liste-missions"></div>
+    </section>
+
+    <section id="mes-competences">
+      <p class="section-label">Les 5 compétences du BUT MMI</p>
+      <h2 class="section-title">Mes <em>compétences</em></h2>
+      <p class="intro">Nombre de réalisations qui mobilisent chaque compétence.</p>
+      <ul id="liste-competences"></ul>
+    </section>
+
+    <section id="mes-outils">
+      <p class="section-label">Dans ma trousse</p>
+      <h2 class="section-title">Mes <em>outils</em></h2>
+      <ul id="liste-outils"></ul>
+    </section>
+
+    <section id="mon-bilan">
+      <p class="section-label">Avec du recul</p>
+      <h2 class="section-title">Mon <em>bilan</em></h2>
+      <dl class="fiche" id="infos-bilan"></dl>
+    </section>
+  </main>
+
+  <footer>
+    <p>DUFLO Yasmina, BUT MMI 2<sup>e</sup> année</p>
+    <a href="mentions-legales.html">Mentions légales</a>
+  </footer>
+
+  <script src="js/menu.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
